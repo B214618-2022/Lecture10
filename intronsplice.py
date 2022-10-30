@@ -1,7 +1,7 @@
 #!/bin/python3
 
 # Getting sequence, setting variables
-my_dna = open("DNA_file").read()
+my_dna = open("DNA_file.txt").read()
 my_dna = my_dna.replace('\n', '')
 coding_dna = ''
 intron = my_dna[63:90]
